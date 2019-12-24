@@ -1,2 +1,2 @@
 # irvsp
-to compute the Irreducible Representations in Vienna ab-initio Simulation Package (irvsp)
+to compute Irreducible Representations in Vienna ab-initio Simulation Package (irvsp)
