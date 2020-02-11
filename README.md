@@ -1,6 +1,6 @@
 
 # Please refer to the following reference for more details in the codes:
-  https://arxiv.org/abs/2002.04032
+  https://arxiv.org/abs/2002.04032.
 
 # irvsp
 to compute Irreducible Representations of electronic states in Vienna ab-initio Simulation Package (irvsp).
@@ -23,7 +23,7 @@ src_trace_v1.tar.gz  : for the VASP calculations with ISPIN=1.
 src_trace_v1.1.tar.gz: for Hybrid functional calculations with ISPIN=1, 
                        which can skip the first N k-points.
 
-src_trace_v2.tar.gz  : for the VASP calculations with ISPIN=2
+src_trace_v2.tar.gz  : for the VASP calculations with ISPIN=2.
 
 
 # ir2tb
