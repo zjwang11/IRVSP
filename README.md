@@ -2,7 +2,7 @@
 # Please refer to the following reference for more details in the codes:
   https://arxiv.org/abs/2002.04032.
 
-**You are welcome to provide a link to the source code in this repository, but you may not upload the source code to any website.
+* You are welcome to provide a link to the source code in this repository, but you may not upload the source code to any website.
 
 # irvsp
 to compute Irreducible Representations of electronic states in Vienna ab-initio Simulation Package (irvsp).
