@@ -4,6 +4,8 @@
 
 * You are welcome to provide a link to the source code in this repository, but you may not upload the source code to any website.
 
+* If you have no idea of the space group number(SGN) in your system, please run 'Phonopy' to get the SGN and standardise your POSCAR for the following calculations.
+
 # irvsp
 to compute Irreducible Representations of electronic states in Vienna ab-initio Simulation Package (irvsp).
 
