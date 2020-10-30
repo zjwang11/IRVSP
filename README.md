@@ -31,7 +31,7 @@ src_trace_v2.tar.gz  : for the VASP calculations with ISPIN=2.
 
 
 # ir2tb
-to compute irreducible representations of electronic states in a tight-binding Hamiltonian.
+to compute irreducible representations of states in the (electronic or phononic) tight-binding Hamiltonian.
 
 src_ir2tb_v1.tar.gz : for symmorphic crystals 
                       according to the character tables (CRTs) of point-group (PNG) symmetries.
