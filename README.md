@@ -1,10 +1,11 @@
 
-# Please refer to the following reference for more details in the codes:
-  https://arxiv.org/abs/2002.04032.
+# Please refer to the following reference for more details of the code:
+     [1] J. Gao, Q. Wu, C. Persson et al., Irvsp: To obtain irreducible representations of electronic states in the VASP, Computer Physics Communications (2021) 107760, https://doi.org/10.1016/j.cpc.2020.107760.
+     [2] https://arxiv.org/abs/2012.02203.
 
 * You are welcome to provide a link to the source code in this repository, but you may not upload the source code to any website.
 
-* If you have no idea of the space group number(SGN) in your system, please run 'Phonopy' to get the SGN and standardise your POSCAR for the following calculations.
+* If you have no idea of the space group number(SGN) in your system, please run 'Phonopy' to get the SGN and standardise your POSCAR in the following calculations.
 
 # irvsp
 to compute Irreducible Representations of electronic states in Vienna ab-initio Simulation Package (irvsp).
@@ -12,7 +13,7 @@ to compute Irreducible Representations of electronic states in Vienna ab-initio 
 src_irvsp_v1.tar.gz : for symmorphic crystals 
                       according to the character tables (CRTs) of point-group (PNG) symmetries.
 
-src_irvsp_v2.tar.gz : for nonsymmorphic crystals 
+src_irvsp_v2.tar.gz : for nonsymmorphic crystals in 1651 magnetic space groups.
                       according to the CRTs on the Bilbao Crystallographic Server(BCS).
 
 
@@ -29,6 +30,14 @@ src_trace_v1.1.tar.gz: for Hybrid functional calculations with ISPIN=1,
 
 src_trace_v2.tar.gz  : for the VASP calculations with ISPIN=2.
 
+# ir2pw
+to compute irreducible representations of states in PW-based ab-initio packages.
+
+src_ir2tb_v1.tar.gz : for symmorphic crystals 
+                      according to the character tables (CRTs) of point-group (PNG) symmetries.
+
+src_ir2tb_v2.tar.gz : for nonsymmorphic crystals 
+                      according to the CRTs on the Bilbao Crystallographic Server(BCS).
 
 # ir2tb
 to compute irreducible representations of states in the (electronic or phononic) tight-binding Hamiltonian.
@@ -38,5 +47,8 @@ src_ir2tb_v1.tar.gz : for symmorphic crystals
 
 src_ir2tb_v2.tar.gz : for nonsymmorphic crystals 
                       according to the CRTs on the Bilbao Crystallographic Server(BCS).
+
+# irrep_bcs.a 
+the associated library can be linked to by various DFT packages, such as VASP, Quantum espresso, Siesta, Abinit, ELK, Wien2k.
 
 
