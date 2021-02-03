@@ -15,7 +15,7 @@ to compute Irreducible Representations of electronic states in Vienna ab-initio 
 src_irvsp_v1.tar.gz : for symmorphic crystals 
                       according to the character tables (CRTs) of point-group (PNG) symmetries.
 
-src_irvsp_v2.tar.gz : for nonsymmorphic crystals in 1651 magnetic space groups.
+src_irvsp_v2.tar.gz : for nonsymmorphic crystals in 1651 magnetic space groups
                       according to the CRTs on the Bilbao Crystallographic Server(BCS).
 
 
