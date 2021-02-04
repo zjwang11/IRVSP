@@ -6,7 +6,7 @@
      https://doi.org/10.1016/j.cpc.2020.107760.
      
      
-     [2] https://arxiv.org/abs/2012.02203.
+     [2] pos2aBR:S. Nie, et al.  https://arxiv.org/abs/2012.02203.
 
 * You are welcome to provide a link to the source code in this repository, but you may not upload the source code to any website.
 
