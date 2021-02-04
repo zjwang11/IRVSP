@@ -1,5 +1,5 @@
 
-# Please refer to the following reference for more details of the code:
+* Please refer to the following reference for more details of the code:
      [1] J. Gao J, Wu Q, Persson C, Z. Wang. Irvsp: to obtain irreducible representations of 
      electronic states in the VASP. Comput. Phys. Comm. 261, 107760 (2021). 
      https://doi.org/10.1016/j.cpc.2020.107760.
@@ -35,10 +35,7 @@ src_trace_v2.tar.gz  : for the VASP calculations with ISPIN=2.
 # ir2pw
 to compute irreducible representations of states in PW-based ab-initio packages.
 
-src_ir2tb_v1.tar.gz : for symmorphic crystals 
-                      according to the character tables (CRTs) of point-group (PNG) symmetries.
-
-src_ir2tb_v2.tar.gz : for nonsymmorphic crystals 
+src_ir2pw_v2.tar.gz : for nonsymmorphic crystals 
                       according to the CRTs on the Bilbao Crystallographic Server(BCS).
 
 # ir2tb
