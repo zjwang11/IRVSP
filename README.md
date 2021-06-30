@@ -1,7 +1,7 @@
 
 * Please refer to the following reference for more details of the code:
      
-     [1] J. Gao J, Wu Q, Persson C, Z. Wang. Irvsp: to obtain irreducible representations of 
+     [1] J. Gao, Q. Wu, Persson C, Z. Wang. Irvsp: to obtain irreducible representations of 
      electronic states in the VASP. Comput. Phys. Comm. 261, 107760 (2021). 
      https://doi.org/10.1016/j.cpc.2020.107760.
      
