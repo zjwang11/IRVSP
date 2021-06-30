@@ -1,13 +1,11 @@
 
 * Please refer to the following reference for more details of the code:
      
-     [1] J. Gao, Q. Wu, Persson C, Z. Wang. Irvsp: to obtain irreducible representations of 
-     electronic states in the VASP. Comput. Phys. Comm. 261, 107760 (2021). 
-     https://doi.org/10.1016/j.cpc.2020.107760.
+     [1] irvsp  :  J. Gao, et al. https://doi.org/10.1016/j.cpc.2020.107760.
      
      [2] pos2aBR:  J. Gao, et al. https://arxiv.org/abs/2106.08035
      
-     [3] pos2aBR:  S. Nie, et al.  https://doi.org/10.1103/PhysRevB.103.205133.
+     [3] pos2aBR:  S. Nie, et al. https://doi.org/10.1103/PhysRevB.103.205133.
 
 * You are welcome to provide a link to the source code in this repository, but you may not upload the source code to any website.
 
