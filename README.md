@@ -18,7 +18,7 @@ to compute Irreducible Representations of electronic states in Vienna ab-initio 
 src_irvsp_v1.tar.gz : for symmorphic crystals 
                       according to the character tables (CRTs) of point-group (PNG) symmetries.
 
-src_irvsp_v2.tar.gz : for nonsymmorphic crystals in 1651 magnetic space groups
+src_irvsp_v2.tar.gz : for all crystals in 1651 magnetic space groups
                       according to the CRTs on the Bilbao Crystallographic Server(BCS).
 
 
@@ -38,7 +38,7 @@ src_trace_v2.tar.gz  : for the VASP calculations with ISPIN=2.
 # ir2pw
 to compute irreducible representations of states in PW-based ab-initio packages.
 
-src_ir2pw_v2.tar.gz : for nonsymmorphic crystals 
+src_ir2pw_v2.tar.gz : for all crystals in 1651 magnetic space groups
                       according to the CRTs on the Bilbao Crystallographic Server(BCS).
 
 # ir2tb
@@ -47,7 +47,7 @@ to compute irreducible representations of states in the (electronic or phononic)
 src_ir2tb_v1.tar.gz : for symmorphic crystals 
                       according to the character tables (CRTs) of point-group (PNG) symmetries.
 
-src_ir2tb_v2.tar.gz : for nonsymmorphic crystals 
+src_ir2tb_v2.tar.gz : for all crystals 
                       according to the CRTs on the Bilbao Crystallographic Server(BCS).
 
 # irrep_bcs.a 
