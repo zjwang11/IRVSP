@@ -3,9 +3,7 @@
      
      [1] irvsp  :  J. Gao, et al. https://doi.org/10.1016/j.cpc.2020.107760.
      
-     [2] pos2aBR:  J. Gao, et al. https://arxiv.org/abs/2106.08035
-     
-     [3] pos2aBR:  S. Nie, et al. https://doi.org/10.1103/PhysRevB.103.205133.
+     [2] pos2aBR:  J. Gao, et al. https://arxiv.org/abs/2106.08035; S. Nie, et al. https://doi.org/10.1103/PhysRevB.103.205133.
 
 * You are welcome to provide a link to the source code in this repository, but you may not upload the source code to any website.
 
