@@ -65,5 +65,5 @@ the associated library can be linked to by various DFT packages, such as VASP, Q
 * solve eBR/aBR (using tqc.data)
 
 # Notice
-For SOC calculations, please set the MAGMOM tag explicitly in INCAR (for example MAGMOM=9000\*0). The default value of MAGMOM may cause an error when using irvsp.
+For SOC calculations, please set the MAGMOM tag explicitly in INCAR (for example MAGMOM=9000\*0). The default value of MAGMOM could cause an error when using irvsp.
 
