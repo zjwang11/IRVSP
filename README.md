@@ -56,12 +56,12 @@ src_ir2tb_v2.tar.gz : for all crystals
 the associated library can be linked to by various DFT packages, such as VASP, Quantum espresso, Siesta, Abinit, ELK, Wien2k.
 
 # A general workflow for using irvsp
-* prepare your POSCAR file ... 
-* phonopy --symmetry --tolerance 0.01 -c POSCAR
-* pos2aBR 
-* cp POSCAR_std POSCAR
+$ prepare your POSCAR file ... <br>
+$ phonopy --symmetry --tolerance 0.01 -c POSCAR <br>
+* pos2aBR <br>
+$ cp POSCAR_std POSCAR
 * do vasp calculations ...
-* irvsp -sg ...
+$ irvsp -sg ... <br>
 * solve eBR/aBR 
 
 # Notice
