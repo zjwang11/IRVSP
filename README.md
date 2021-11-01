@@ -3,21 +3,26 @@
      
      [1] irvsp  :  J. Gao, et al. Comput. Phys. Comm. 261, 107760 (2021). https://doi.org/10.1016/j.cpc.2020.107760.
      
-     [2] pos2aBR: download from https://github.com/zjwang11/UnconvMat
+     [2] pos2aBR:  website http://tm.iphy.ac.cn/UnconvMat.html; source code https://github.com/zjwang11/UnconvMat
+     
      J. Gao, et al. https://arxiv.org/abs/2106.08035; S. Nie, et al. https://doi.org/10.1103/PhysRevB.103.205133.
 
 * You are welcome to provide a link to the source code in this repository, but you may not upload the source code to any website.
 
-* If you have no idea of the space group number(SGN) in your system, please run 'Phonopy' to get the SGN and standardise your POSCAR in the following calculations.
+* If you have no idea of the space group number(SGN) in your system, please run 'Phonopy' to get the SGN.
+
+* Run 'Phonopy' and 'pos2aBR' to standardize POSCAR to be compatible with the convention in 'irvsp'.
 
 # irvsp
 to compute Irreducible Representations of electronic states in Vienna ab-initio Simulation Package (irvsp).
+The "tqc.txt" and "tqc.data" are generated, which you can upload online (http://tm.iphy.ac.cn/UnconvMat.html)
+to solve the aBR (resp. eBR) decompostion and compatibilite relations for unconventional (resp. topological) materials.
 
 src_irvsp_v1.tar.gz : for symmorphic crystals 
                       according to the character tables (CRTs) of point-group (PNG) symmetries.
 
 src_irvsp_v2.tar.gz : for all crystals in 1651 magnetic space groups
-                      according to the CRTs on the Bilbao Crystallographic Server(BCS).
+                      according to the CRTs on the Bilbao Crystallographic Server (BCS).
 
 
 # vasp2trace
@@ -60,5 +65,5 @@ the associated library can be linked to by various DFT packages, such as VASP, Q
 * irvsp -sg ...
 
 # Notice
-For SOC calculations, please set the MAGMOM tag explicitly in INCAR (for example MAGMOM=9000*0). The default value of MAGMOM may cause an error when using irvsp.
+For SOC calculations, please set the MAGMOM tag explicitly in INCAR (for example MAGMOM=9000\*0). The default value of MAGMOM may cause an error when using irvsp.
 
