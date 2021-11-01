@@ -9,7 +9,7 @@
 
 * You are welcome to provide a link to the source code in this repository, but you may not upload the source code to any website.
 
-* If you have no idea of the space group number(SGN) in your system, please run 'Phonopy' to get the SGN.
+* If you have no idea of the space group number (SGN) in your system, please run 'Phonopy' to get the SGN.
 
 * Run 'Phonopy' and 'pos2aBR' to standardize POSCAR to be compatible with the convention in 'irvsp'.
 
@@ -42,7 +42,7 @@ src_trace_v2.tar.gz  : for the VASP calculations with ISPIN=2.
 to compute irreducible representations of states in PW-based ab-initio packages.
 
 src_ir2pw_v2.tar.gz : for all crystals in 1651 magnetic space groups
-                      according to the CRTs on the Bilbao Crystallographic Server(BCS).
+                      according to the CRTs on the Bilbao Crystallographic Server (BCS).
 
 # ir2tb
 to compute irreducible representations of states in the (electronic or phononic) tight-binding Hamiltonian.
@@ -51,7 +51,7 @@ src_ir2tb_v1.tar.gz : for symmorphic crystals
                       according to the character tables (CRTs) of point-group (PNG) symmetries.
 
 src_ir2tb_v2.tar.gz : for all crystals 
-                      according to the CRTs on the Bilbao Crystallographic Server(BCS).
+                      according to the CRTs on the Bilbao Crystallographic Server (BCS).
 
 # irrep_bcs.a 
 the associated library can be linked to by various DFT packages, such as VASP, Quantum espresso, Siesta, Abinit, ELK, Wien2k.
@@ -59,10 +59,11 @@ the associated library can be linked to by various DFT packages, such as VASP, Q
 # A general workflow for using irvsp
 * prepare your POSCAR file ... 
 * phonopy --symmetry --tolerance 0.01 -c POSCAR
-* pos2aBR
+* pos2aBR 
 * cp POSCAR_std POSCAR
 * do vasp calculations ...
 * irvsp -sg ...
+* solve eBR/aBR 
 
 # Notice
 For SOC calculations, please set the MAGMOM tag explicitly in INCAR (for example MAGMOM=9000\*0). The default value of MAGMOM may cause an error when using irvsp.
