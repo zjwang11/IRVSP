@@ -59,8 +59,8 @@ the associated library can be linked to by various DFT packages, such as VASP, Q
 $ prepare your POSCAR file ... <br>
 $ phonopy --symmetry --tolerance 0.01 -c POSCAR <br>
 * pos2aBR <br>
-$ cp POSCAR_std POSCAR
-* do vasp calculations ...
+$ cp POSCAR_std POSCAR <br>
+* do vasp calculations ... <br>
 $ irvsp -sg ... <br>
 * solve eBR/aBR 
 
