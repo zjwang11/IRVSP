@@ -53,11 +53,11 @@ the associated library can be linked to by various DFT packages, such as VASP, Q
 
 # A general workflow for using irvsp
 * prepare your POSCAR file ... 
-$ phonopy --symmetry --tolerance 0.01 -c POSCAR
-$ pos2aBR
-$ cp POSCAR_std POSCAR
+* phonopy --symmetry --tolerance 0.01 -c POSCAR
+* pos2aBR
+* cp POSCAR_std POSCAR
 * do vasp calculations ...
-$ irvsp -sg ...
+* irvsp -sg ...
 
 # Notice
 For SOC calculations, please set the MAGMOM tag explicitly in INCAR (for example MAGMOM=9000*0). The default value of MAGMOM may cause an error when using irvsp.
