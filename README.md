@@ -56,13 +56,13 @@ src_ir2tb_v2.tar.gz : for all crystals
 the associated library can be linked to by various DFT packages, such as VASP, Quantum espresso, Siesta, Abinit, ELK, Wien2k.
 
 # A general workflow for using irvsp
-$ prepare your POSCAR file ... <br>
-$ phonopy --symmetry --tolerance 0.01 -c POSCAR <br>
-- pos2aBR <br>
-$ cp POSCAR_std POSCAR <br>
-- do vasp calculations ... <br>
-$ irvsp -sg ... <br>
-- solve eBR/aBR 
+* prepare your POSCAR file ...
+* phonopy --symmetry --tolerance 0.01 -c POSCAR
+* pos2aBR (converting PPOSCAR to POSCAR_std)
+* cp POSCAR_std POSCAR
+* do vasp calculations ...
+* irvsp -sg ...
+* solve eBR/aBR (using tqc.data)
 
 # Notice
 For SOC calculations, please set the MAGMOM tag explicitly in INCAR (for example MAGMOM=9000\*0). The default value of MAGMOM may cause an error when using irvsp.
