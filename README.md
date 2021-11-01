@@ -1,9 +1,10 @@
 
 * Please refer to the following reference for more details of the code:
      
-     [1] irvsp  :  J. Gao, et al. https://doi.org/10.1016/j.cpc.2020.107760.
+     [1] irvsp  :  J. Gao, et al. Comput. Phys. Comm. 261, 107760 (2021). https://doi.org/10.1016/j.cpc.2020.107760.
      
-     [2] pos2aBR:  J. Gao, et al. https://arxiv.org/abs/2106.08035; S. Nie, et al. https://doi.org/10.1103/PhysRevB.103.205133.
+     [2] pos2aBR: download from https://github.com/zjwang11/UnconvMat
+     J. Gao, et al. https://arxiv.org/abs/2106.08035; S. Nie, et al. https://doi.org/10.1103/PhysRevB.103.205133.
 
 * You are welcome to provide a link to the source code in this repository, but you may not upload the source code to any website.
 
@@ -59,5 +60,5 @@ $ cp POSCAR_std POSCAR
 $ irvsp -sg ...
 
 # Notice
-For SOC calculations, please set the MAGMOM tag explicitly in INCAR (for example MAGMOM=0 0 0...). The default value of MAGMOM may cause an error when using irvsp.
+For SOC calculations, please set the MAGMOM tag explicitly in INCAR (for example MAGMOM=9000*0). The default value of MAGMOM may cause an error when using irvsp.
 
