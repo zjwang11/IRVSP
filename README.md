@@ -65,5 +65,7 @@ the associated library can be linked to by various DFT packages, such as VASP, Q
 * solve eBR/aBR (* using tqc.data *)
 
 # Notice
-For SOC calculations, please set the MAGMOM tag explicitly in INCAR (for example MAGMOM=9000\*0). The default value of MAGMOM could cause an error when using irvsp.
+* For SOC calculations, please set the MAGMOM tag explicitly in INCAR (for example MAGMOM=9000\*0). The default value of MAGMOM could cause an error when using irvsp.
+* Do NOT set ISYM tag in INCAR.
+* For VASP6.2, please modify the line "CALL SET_SPINROT_WRAPPER(LATT_CUR%B(1,1),-1)" in mkpoints.F to "CALL SET_SPINROT_WRAPPER(LATT_CUR%B(1,1),IU6)" and recompile VASP before using irvsp.
 
