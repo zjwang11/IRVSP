@@ -38,8 +38,8 @@ src_trace_v1.1.tar.gz: for Hybrid functional calculations with ISPIN=1,
 src_trace_v2.tar.gz  : for the VASP calculations with ISPIN=2.
 
 
-# irrep_bcs.a 
-*The library can be linked to by DFT packages, such as VASP, Quantum espresso, Siesta, Abinit, ELK, Wien2k.
+# IRVSP library 
+* The library can be linked to by DFT packages, such as VASP, Quantum espresso, Siesta, Abinit, ELK, Wien2k.
 
 # A general workflow for using irvsp
 * prepare your POSCAR file ...
