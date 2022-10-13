@@ -13,7 +13,7 @@
 * Run 'Phonopy' and 'pos2aBR' to standardize POSCAR to be compatible with the convention in 'irvsp'.
 
 # IRVSP
-to compute Irreducible Representations of electronic states in Vienna ab-initio Simulation Package v5.3(IRVSP).
+to compute Irreducible Representations of electronic states in Vienna ab-initio Simulation Package v5.3 (IRVSP).
 The "tqc.txt" and "tqc.data" are generated, which you can upload online (http://tm.iphy.ac.cn/UnconvMat.html)
 to solve the aBR (resp. eBR) decompostion and compatibilite relations for unconventional (resp. topological) materials.
 
@@ -39,7 +39,7 @@ src_trace_v2.tar.gz  : for the VASP calculations with ISPIN=2.
 
 
 # irrep_bcs.a 
-The library can be linked to by DFT packages, such as VASP, Quantum espresso, Siesta, Abinit, ELK, Wien2k.
+*The library can be linked to by DFT packages, such as VASP, Quantum espresso, Siesta, Abinit, ELK, Wien2k.
 
 # A general workflow for using irvsp
 * prepare your POSCAR file ...
