@@ -41,12 +41,12 @@ src_trace_v2.tar.gz  : for the VASP calculations with ISPIN=2.
 # IRVSP library 
 * The library can be linked to by DFT packages, such as VASP, Quantum espresso, Siesta, Abinit, ELK, Wien2k.
 
-# A general workflow for using irvsp
+# A general workflow for using IRVSP
 * prepare your POSCAR file ...
 * phonopy --symmetry --tolerance 0.01 -c POSCAR
 * pos2aBR (* converting PPOSCAR to POSCAR_std *)
 * cp POSCAR_std POSCAR
-* do DFT(VASP,QE etc) calculations ...
+* do DFT (VASP, QE ...) calculations ...
 * irvsp -sg ...
 * solve eBR/aBR (* using tqc.data *)
 
