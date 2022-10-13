@@ -39,14 +39,14 @@ src_trace_v2.tar.gz  : for the VASP calculations with ISPIN=2.
 
 
 # irrep_bcs.a 
-the associated library can be linked to by various DFT packages, such as VASP, Quantum espresso, Siesta, Abinit, ELK, Wien2k.
+The library can be linked to by DFT packages, such as VASP, Quantum espresso, Siesta, Abinit, ELK, Wien2k.
 
 # A general workflow for using irvsp
 * prepare your POSCAR file ...
 * phonopy --symmetry --tolerance 0.01 -c POSCAR
 * pos2aBR (* converting PPOSCAR to POSCAR_std *)
 * cp POSCAR_std POSCAR
-* do vasp calculations ...
+* do DFT(VASP,QE etc) calculations ...
 * irvsp -sg ...
 * solve eBR/aBR (* using tqc.data *)
 
@@ -60,8 +60,8 @@ src_ir2tb_v2.tar.gz : for all crystals
                       according to the CRTs on the Bilbao Crystallographic Server (BCS).
 
 # Notice
-* For SOC calculations, please set the MAGMOM tag explicitly in INCAR (for example MAGMOM=9000\*0). The default value of MAGMOM could cause an error when using irvsp.
+* For SOC calculations, please set the MAGMOM tag explicitly in INCAR (for example MAGMOM=9000\*0). The default value of MAGMOM could cause an error when using IRVSP.
 * For magnetic calculations, please refer to http://tm.iphy.ac.cn/TopMat_1651msg.html
 * Do NOT set ISYM tag in INCAR.
-* For VASP6.2, please modify the line "CALL SET_SPINROT_WRAPPER(LATT_CUR%B(1,1),-1)" in mkpoints.F to "CALL SET_SPINROT_WRAPPER(LATT_CUR%B(1,1),IU6)" and recompile VASP before using irvsp.
+* For VASP6.2, please modify the line "CALL SET_SPINROT_WRAPPER(LATT_CUR%B(1,1),-1)" in mkpoints.F to "CALL SET_SPINROT_WRAPPER(LATT_CUR%B(1,1),IU6)" and recompile VASP before using IRVSP.
 
