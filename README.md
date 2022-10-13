@@ -37,20 +37,6 @@ src_trace_v1.1.tar.gz: for Hybrid functional calculations with ISPIN=1,
 
 src_trace_v2.tar.gz  : for the VASP calculations with ISPIN=2.
 
-# ir2pw
-to compute irreducible representations of states in PW-based ab-initio packages.
-
-src_ir2pw_v2.tar.gz : for all crystals in 1651 magnetic space groups
-                      according to the CRTs on the Bilbao Crystallographic Server (BCS).
-
-# ir2tb
-to compute irreducible representations of states in the (electronic or phononic) tight-binding Hamiltonian.
-
-src_ir2tb_v1.tar.gz : for symmorphic crystals 
-                      according to the character tables (CRTs) of point-group (PNG) symmetries.
-
-src_ir2tb_v2.tar.gz : for all crystals 
-                      according to the CRTs on the Bilbao Crystallographic Server (BCS).
 
 # irrep_bcs.a 
 the associated library can be linked to by various DFT packages, such as VASP, Quantum espresso, Siesta, Abinit, ELK, Wien2k.
@@ -63,6 +49,15 @@ the associated library can be linked to by various DFT packages, such as VASP, Q
 * do vasp calculations ...
 * irvsp -sg ...
 * solve eBR/aBR (* using tqc.data *)
+
+# ir2tb
+to compute irreducible representations of states in the (electronic or phononic) tight-binding Hamiltonian.
+
+src_ir2tb_v1.tar.gz : for symmorphic crystals 
+                      according to the character tables (CRTs) of point-group (PNG) symmetries.
+
+src_ir2tb_v2.tar.gz : for all crystals 
+                      according to the CRTs on the Bilbao Crystallographic Server (BCS).
 
 # Notice
 * For SOC calculations, please set the MAGMOM tag explicitly in INCAR (for example MAGMOM=9000\*0). The default value of MAGMOM could cause an error when using irvsp.
