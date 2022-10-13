@@ -1,4 +1,4 @@
-
+# IRVSP and Library
 * Please refer to the following references for more details of the codes:
      
      [1] irvsp  :   J. Gao, et al. Comput. Phys. Comm. 261, 107760 (2021). https://doi.org/10.1016/j.cpc.2020.107760.
@@ -12,8 +12,8 @@
 
 * Run 'Phonopy' and 'pos2aBR' to standardize POSCAR to be compatible with the convention in 'irvsp'.
 
-# irvsp
-to compute Irreducible Representations of electronic states in Vienna ab-initio Simulation Package (irvsp).
+# IRVSP
+to compute Irreducible Representations of electronic states in Vienna ab-initio Simulation Package v5.3(IRVSP).
 The "tqc.txt" and "tqc.data" are generated, which you can upload online (http://tm.iphy.ac.cn/UnconvMat.html)
 to solve the aBR (resp. eBR) decompostion and compatibilite relations for unconventional (resp. topological) materials.
 
