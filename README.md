@@ -14,9 +14,9 @@
 
 # IRVSP
 to compute Irreducible Representations of electronic states in Vienna ab-initio Simulation Package v5.3 (IRVSP).
-The "tqc.txt" and "tqc.data" are generated, which you can upload online (http://tm.iphy.ac.cn/)
-to solve the aBR (resp. eBR) decompostion and compatibilite relations for unconventional (resp. topological) materials.</br>
-(http://tm.iphy.ac.cn/UnconvMat.html)
+The "tqc.txt" and "tqc.data" are generated, which you can upload online (http://tm.iphy.ac.cn/) </br>
+to solve the eBR/aBR decompostion and compatibilite relations for topological/unconventional materials.</br>
+(http://tm.iphy.ac.cn/TopMat_1651msg.html; http://tm.iphy.ac.cn/UnconvMat.html)
 
 src_irvsp_v1.tar.gz : for symmorphic crystals 
                       according to the character tables (CRTs) of point-group (PNG) symmetries.
