@@ -29,7 +29,7 @@ src_irvsp_v2.tar.gz : for all crystals in 1651 magnetic space groups
 to compute the traces of electronic states in Vienna ab-initio Simulation Package.
 The trace file "trace.txt" is generated, which is needed for the CheckTopologicalMat 
 on the BCS: www.cryst.ehu.es/cryst/checktopologicalmat
-[cite "M.G. Vergniory, et al., Nature 566, 480-485. (2019)"].
+["M.G. Vergniory, et al., Nature 566, 480-485. (2019)"].
 
 src_trace_v1.tar.gz  : for the VASP calculations with ISPIN=1.
 
