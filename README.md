@@ -1,7 +1,7 @@
 # IRVSP and Library
 * Please refer to the following references for more details of the codes:
      
-     [1] irvsp  :   J. Gao, et al. Comput. Phys. Comm. 261, 107760 (2021). https://doi.org/10.1016/j.cpc.2020.107760.
+     [1] IRVSP  :   J. Gao, et al. Comput. Phys. Comm. 261, 107760 (2021). https://doi.org/10.1016/j.cpc.2020.107760.
      
      [2] pos2aBR:  website http://tm.iphy.ac.cn/UnconvMat.html; source code https://github.com/zjwang11/UnconvMat <br>
        J. Gao, et al. https://doi.org/10.1016/j.scib.2021.12.025; S. Nie, et al. Phys. Rev. B 103, 205133 (2021). https://doi.org/10.1103/PhysRevB.103.205133.
@@ -10,12 +10,13 @@
 
 * If you have no idea of the space group number (SGN) in your system, please run 'Phonopy' to get the SGN.
 
-* Run 'Phonopy' and 'pos2aBR' to standardize POSCAR to be compatible with the convention in 'irvsp'.
+* Run 'Phonopy' and 'pos2aBR' to standardize POSCAR to be compatible with the convention in 'IRVSP'.
 
 # IRVSP
 to compute Irreducible Representations of electronic states in Vienna ab-initio Simulation Package v5.3 (IRVSP).
-The "tqc.txt" and "tqc.data" are generated, which you can upload online (http://tm.iphy.ac.cn/UnconvMat.html)
-to solve the aBR (resp. eBR) decompostion and compatibilite relations for unconventional (resp. topological) materials.
+The "tqc.txt" and "tqc.data" are generated, which you can upload online (http://tm.iphy.ac.cn/)
+to solve the aBR (resp. eBR) decompostion and compatibilite relations for unconventional (resp. topological) materials.</br>
+(http://tm.iphy.ac.cn/UnconvMat.html)
 
 src_irvsp_v1.tar.gz : for symmorphic crystals 
                       according to the character tables (CRTs) of point-group (PNG) symmetries.
