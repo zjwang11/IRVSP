@@ -60,7 +60,7 @@ src_ir2tb_v1.tar.gz : for symmorphic crystals
 src_ir2tb_v2.tar.gz : for all crystals 
                       according to the CRTs on the Bilbao Crystallographic Server (BCS).
 
-# Notice
+# Notices in VASP calculation
 * Please do NOT set ISYM tag in INCAR (Default ISYM=2).
 * For SOC calculations, please set the MAGMOM tag explicitly in INCAR (for example, MAGMOM=900\*0). The default values of MAGMOM could cause an error when using IRVSP.
 * For detailed magnetic calculations, please refer to http://tm.iphy.ac.cn/TopMat_1651msg.html
