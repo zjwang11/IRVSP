@@ -21,7 +21,7 @@ to solve the eBR/aBR decompostion and compatibilite relations for topological/un
 src_irvsp_v1.tar.gz : for symmorphic crystals 
                       according to the character tables (CRTs) of point-group (PNG) symmetries.
 
-src_irvsp_v2.tar.gz : for all crystals in 1651 magnetic space groups
+* src_irvsp_v2.tar.gz : for all crystals in 1651 magnetic space groups
                       according to the CRTs on the Bilbao Crystallographic Server (BCS).
 
 
@@ -40,7 +40,7 @@ src_trace_v2.tar.gz  : for the VASP calculations with ISPIN=2.
 
 
 # IRVSP library 
-* The library can be linked to by DFT packages, such as Quantum Espresso, VASP, Siesta, Abinit, ELK, Wien2k.
+The library can be linked to by DFT packages, such as Quantum Espresso, VASP, Siesta, Abinit, ELK, Wien2k.
 * https://github.com/zjwang11/IR2PW_and_IR2TB
 
 # A general workflow for using IRVSP
