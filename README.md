@@ -52,7 +52,7 @@ The library can be linked to by DFT packages, such as Quantum Espresso, VASP, Si
 * solve eBR/aBR (* using tqc.data *)
 
 # ir2tb
-to compute irreducible representations of states in the (electronic or phononic) tight-binding Hamiltonian.
+to compute irreducible representations of states in (electronic or phononic) tight-binding Hamiltonians(Wannier90, Slater-Koster).
 
 src_ir2tb_v1.tar.gz : for symmorphic crystals 
                       according to the character tables (CRTs) of point-group (PNG) symmetries.
