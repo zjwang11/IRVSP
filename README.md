@@ -62,7 +62,7 @@ src_ir2tb_v2.tar.gz : for all crystals
 
 # Notices in VASP calculation
 * Please do NOT set ISYM tag in INCAR (Default ISYM=2).
-* For SOC calculations, please set the MAGMOM tag explicitly in INCAR (for example, MAGMOM=900\*0). The default values of MAGMOM could cause an error when using IRVSP.
+* For SOC calculations, please set the MAGMOM tag explicitly in INCAR (for example, MAGMOM=900\*0). The default values of MAGMOM could cause the SYMMETRY error when using IRVSP.
 * For detailed magnetic calculations, please refer to http://tm.iphy.ac.cn/TopMat_1651msg.html.
 * For VASP6.x, please modify the line "CALL SET_SPINROT_WRAPPER(LATT_CUR%B(1,1),-1)" in mkpoints.F to "CALL SET_SPINROT_WRAPPER(LATT_CUR%B(1,1),IU6)" and recompile VASP before using IRVSP.
 
