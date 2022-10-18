@@ -48,7 +48,7 @@ The library can be linked to by DFT packages, such as Quantum Espresso, VASP, Si
 * phonopy --symmetry --tolerance 0.01 -c POSCAR
 * pos2aBR (* converting PPOSCAR to POSCAR_std *)
 * use POSCAR_std to do DFT (VASP, QE ...) calculations ...
-* irvsp -sg ...
+* irvsp -sg xxx -nb xx xx > outir2
 * solve eBR/aBR (* using tqc.data *)
 
 # ir2tb
