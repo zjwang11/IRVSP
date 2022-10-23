@@ -41,7 +41,7 @@ src_trace_v2.tar.gz  : for the VASP calculations with ISPIN=2.
 
 # IRVSP library 
 The library can be linked to by DFT packages, such as Quantum Espresso, VASP, Siesta, Abinit, ELK, Wien2k.
-* https://github.com/zjwang11/IR2PW_and_IR2TB
+* https://github.com/zjwang11/ir2pw
 
 # A general workflow for using IRVSP
 * prepare your POSCAR file ...
