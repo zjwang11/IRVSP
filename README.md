@@ -1,4 +1,4 @@
-# IRVSP and Library
+# IRVSP/IR2TB and Library
 * Please refer to the following references for more details of the codes:
      
      [1] IRVSP  :   J. Gao, et al. Comput. Phys. Comm. 261, 107760 (2021). https://doi.org/10.1016/j.cpc.2020.107760.
